@@ -69,7 +69,8 @@ section {
 #main {
   max-width: 1100px;
   margin: 0 auto;
-  /* contact */ }
+  /* contact */
+  /* work experience, education */ }
   #main section {
     margin-left: 6%;
     margin-right: 6%;
@@ -98,3 +99,34 @@ section {
           margin-right: 5px; }
         #main #contact .list div p a {
           text-decoration: none; }
+  #main #workexperience article, #main #education article {
+    width: 100%;
+    margin-top: 60px;
+    overflow: hidden; }
+    #main #workexperience article .dugbox, #main #education article .dugbox {
+      float: left;
+      width: 32%;
+      margin-right: 4%; }
+      #main #workexperience article .dugbox p, #main #education article .dugbox p {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: #b8b8b8;
+        padding-top: 8px; }
+    #main #workexperience article .boxcont, #main #education article .boxcont {
+      float: left;
+      width: 64%; }
+      #main #workexperience article .boxcont h4, #main #education article .boxcont h4 {
+        font-size: 1.875em;
+        font-weight: 400;
+        color: #262626; }
+      #main #workexperience article .boxcont h5, #main #education article .boxcont h5 {
+        font-size: 1.375em;
+        margin-top: 15px;
+        font-weight: 700;
+        color: #40417c; }
+      #main #workexperience article .boxcont .address, #main #education article .boxcont .address {
+        line-height: 2em;
+        font-size: 1.286em;
+        margin-top: 15px;
+        color: #262626;
+        font-weight: 600; }

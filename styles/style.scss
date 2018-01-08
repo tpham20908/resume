@@ -46,6 +46,7 @@ section {
 $blue: #40417c;
 $white: #fff;
 $black: #262626;
+$light_gray: #b8b8b8;
 
 /* header */
 #header {
@@ -118,7 +119,47 @@ $black: #262626;
                   text-decoration: none;
                }
             }
-
+         }
+      }
+   }
+   /* work experience, education */
+   #workexperience, #education {
+      article {
+         width: 100%;
+         margin-top: 60px;
+         overflow: hidden;
+         .dugbox {
+            float: left;
+            width: 32%;
+            margin-right: 4%;
+            p {
+               font-size: 1.25em;
+               font-weight: 700;
+               color: $light_gray;
+               padding-top: 8px;
+            }
+         }
+         .boxcont {
+            float: left;
+            width: 64%;
+            h4 {
+               font-size: 1.875em;
+               font-weight: 400;
+               color: $black;
+            }
+            h5 {
+               font-size: 1.375em;
+               margin-top: 15px;
+               font-weight: 700;
+               color: $blue;
+            }
+            .address {
+               line-height: 2em;
+               font-size: 1.286em;
+               margin-top: 15px;
+               color: $black;
+               font-weight: 600;
+            }
          }
       }
    }
