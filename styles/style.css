@@ -29,3 +29,72 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
+
+/* general styles */
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.15em; }
+
+section {
+  margin-top: 75px; }
+
+/* variables */
+/* header */
+#header {
+  background-color: #40417c; }
+  #header #abouttitle {
+    margin: 0 auto;
+    padding-bottom: 37px;
+    text-align: center;
+    color: #fff;
+    width: 90%; }
+  #header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    font-weight: 600;
+    padding-top: 2em; }
+  #header h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: .8em;
+    line-height: 1.2em; }
+  #header p {
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-top: 3px; }
+
+/* main */
+#main {
+  max-width: 1100px;
+  margin: 0 auto;
+  /* contact */ }
+  #main section {
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%; }
+    #main section .sectiontitle {
+      border-bottom: 4px solid #40417c;
+      width: 100%; }
+      #main section .sectiontitle h3 {
+        font-size: 2.125em;
+        font-weight: 600;
+        color: #262626;
+        text-transform: uppercase;
+        margin-bottom: 5px; }
+  #main #contact .list {
+    margin-top: 40px; }
+    #main #contact .list div {
+      margin-top: 23px; }
+      #main #contact .list div p {
+        color: #262626;
+        line-height: 1.15em; }
+        #main #contact .list div p span {
+          color: #40417c;
+          font-weight: 700;
+          font-size: 1.25em;
+          text-transform: capitalize;
+          margin-right: 5px; }
+        #main #contact .list div p a {
+          text-decoration: none; }
