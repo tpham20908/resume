@@ -33,20 +33,24 @@ footer, header, hgroup, menu, nav, section {
    display: block;
 }
 
-/* general styles */
-body {
-   font-family: "Nunito", sans-serif;
-   font-size: 1.15em;
-}
-section {
-   margin-top: 75px;
-}
-
 /* variables */
 $blue: #40417c;
 $white: #fff;
 $black: #262626;
 $light_gray: #b8b8b8;
+
+/* general styles */
+body {
+   font-family: "Nunito", sans-serif;
+   font-size: 1.15em;
+   color: $black;
+}
+section {
+   margin-top: 75px;
+}
+ol, ul {
+   list-style: none;
+}
 
 /* header */
 #header {
@@ -117,6 +121,7 @@ $light_gray: #b8b8b8;
                }
                a {
                   text-decoration: none;
+                  color: $black;
                }
             }
          }
@@ -160,6 +165,71 @@ $light_gray: #b8b8b8;
                color: $black;
                font-weight: 600;
             }
+         }
+      }
+   }
+   /* skills */
+   #skills {
+      .charthead {
+         margin-top: 60px;
+         position: relative;
+         .levelskillval {
+            width: 100%;
+            overflow: hidden;
+            div {
+               width: 20%;
+               float: left;
+               height: 50px;
+               text-align: center;
+               p {
+                  font-size: .875em;
+                  margin-top: 1em;
+                  color: $black;
+                  text-transform: uppercase;
+                  font-weight: 600;
+               }
+            }
+            div.beg {
+               background-color: #f0f0f0;
+            }
+            div.int {
+               background-color: #e6e6e6;
+            }
+            div.adv {
+               background-color: #dadada;
+            }
+            div.sem {
+               background-color: #cecece;
+            }
+            div.exp {
+               background-color: #bebebe;
+            }
+         }
+      }
+      #chart {
+         margin-top: 58px;
+         li {
+            margin-top: 32px;
+            .tstitle {
+               margin-bottom: 10px;
+               font-size: 1.25em;
+            }
+            .tsbar {
+               height: 32px;
+               background-color: $blue;
+            }
+         }
+         li:nth-child(even) .tsbar {
+            background-color: #5a5caf;
+         }
+      }
+      .qualification {
+         margin-top: 57px;
+         h5 {
+            font-size: 1.25em;
+         }
+         a {
+            margin-left: 16px;
          }
       }
    }

@@ -30,15 +30,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* variables */
 /* general styles */
 body {
   font-family: "Nunito", sans-serif;
-  font-size: 1.15em; }
+  font-size: 1.15em;
+  color: #262626; }
 
 section {
   margin-top: 75px; }
 
-/* variables */
+ol, ul {
+  list-style: none; }
+
 /* header */
 #header {
   background-color: #40417c; }
@@ -70,7 +74,8 @@ section {
   max-width: 1100px;
   margin: 0 auto;
   /* contact */
-  /* work experience, education */ }
+  /* work experience, education */
+  /* skills */ }
   #main section {
     margin-left: 6%;
     margin-right: 6%;
@@ -98,7 +103,8 @@ section {
           text-transform: capitalize;
           margin-right: 5px; }
         #main #contact .list div p a {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #262626; }
   #main #workexperience article, #main #education article {
     width: 100%;
     margin-top: 60px;
@@ -130,3 +136,48 @@ section {
         margin-top: 15px;
         color: #262626;
         font-weight: 600; }
+  #main #skills .charthead {
+    margin-top: 60px;
+    position: relative; }
+    #main #skills .charthead .levelskillval {
+      width: 100%;
+      overflow: hidden; }
+      #main #skills .charthead .levelskillval div {
+        width: 20%;
+        float: left;
+        height: 50px;
+        text-align: center; }
+        #main #skills .charthead .levelskillval div p {
+          font-size: .875em;
+          margin-top: 1em;
+          color: #262626;
+          text-transform: uppercase;
+          font-weight: 600; }
+      #main #skills .charthead .levelskillval div.beg {
+        background-color: #f0f0f0; }
+      #main #skills .charthead .levelskillval div.int {
+        background-color: #e6e6e6; }
+      #main #skills .charthead .levelskillval div.adv {
+        background-color: #dadada; }
+      #main #skills .charthead .levelskillval div.sem {
+        background-color: #cecece; }
+      #main #skills .charthead .levelskillval div.exp {
+        background-color: #bebebe; }
+  #main #skills #chart {
+    margin-top: 58px; }
+    #main #skills #chart li {
+      margin-top: 32px; }
+      #main #skills #chart li .tstitle {
+        margin-bottom: 10px;
+        font-size: 1.25em; }
+      #main #skills #chart li .tsbar {
+        height: 32px;
+        background-color: #40417c; }
+    #main #skills #chart li:nth-child(even) .tsbar {
+      background-color: #5a5caf; }
+  #main #skills .qualification {
+    margin-top: 57px; }
+    #main #skills .qualification h5 {
+      font-size: 1.25em; }
+    #main #skills .qualification a {
+      margin-left: 16px; }
