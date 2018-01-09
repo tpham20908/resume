@@ -43,6 +43,13 @@ section {
 ol, ul {
   list-style: none; }
 
+a {
+  text-decoration: none;
+  color: #40417c; }
+
+a:hover {
+  color: #5a5caf; }
+
 /* header */
 #header {
   background-color: #40417c; }
@@ -104,9 +111,6 @@ ol, ul {
           font-size: 1.25em;
           text-transform: capitalize;
           margin-right: 5px; }
-        #main #contact .list div p a {
-          text-decoration: none;
-          color: #262626; }
   #main #workexperience article, #main #education article {
     width: 100%;
     margin-top: 60px;
@@ -186,7 +190,8 @@ ol, ul {
   #main #hobbies, #main #social {
     float: left;
     width: 41%;
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 32px; }
     #main #hobbies .box, #main #social .box {
       margin-top: 60px; }
       #main #hobbies .box .tablebox, #main #social .box .tablebox {
@@ -204,7 +209,21 @@ ol, ul {
           text-align: left; }
   #main #social {
     margin-right: 6%; }
+    #main #social p {
+      font-weight: 700;
+      font-size: 1.25em;
+      line-height: 1em;
+      color: #40417c; }
+      #main #social p a {
+        font-weight: 300;
+        font-size: .6em; }
 
 /* footer */
 #footer {
-  clear: left; }
+  clear: left;
+  background-color: #40417c;
+  color: #fff;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 200;
+  height: 24px; }
