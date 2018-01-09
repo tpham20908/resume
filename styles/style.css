@@ -75,7 +75,9 @@ ol, ul {
   margin: 0 auto;
   /* contact */
   /* work experience, education */
-  /* skills */ }
+  /* skills */
+  /* hobbies */
+  /* social */ }
   #main section {
     margin-left: 6%;
     margin-right: 6%;
@@ -181,3 +183,28 @@ ol, ul {
       font-size: 1.25em; }
     #main #skills .qualification a {
       margin-left: 16px; }
+  #main #hobbies, #main #social {
+    float: left;
+    width: 41%;
+    margin-right: 0; }
+    #main #hobbies .box, #main #social .box {
+      margin-top: 60px; }
+      #main #hobbies .box .tablebox, #main #social .box .tablebox {
+        width: 100%;
+        margin-top: 28px;
+        display: table; }
+        #main #hobbies .box .tablebox .tableleft, #main #social .box .tablebox .tableleft {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          width: 125px; }
+        #main #hobbies .box .tablebox .tablerig, #main #social .box .tablebox .tablerig {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: left; }
+  #main #social {
+    margin-right: 6%; }
+
+/* footer */
+#footer {
+  clear: left; }

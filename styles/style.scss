@@ -233,4 +233,37 @@ ol, ul {
          }
       }
    }
+   /* hobbies */
+   #hobbies, #social {
+      float: left;
+      width: 41%;
+      margin-right: 0;
+      .box {
+         margin-top: 60px;
+         .tablebox {
+            width: 100%;
+            margin-top: 28px;
+            display: table;
+            .tableleft{
+               display: table-cell;
+               vertical-align: middle;
+               text-align: center;
+               width: 125px;
+            }
+            .tablerig {
+               display: table-cell;
+               vertical-align: middle;
+               text-align: left;
+            }
+         }
+      }
+   }
+   /* social */
+   #social {
+      margin-right: 6%;
+   }
+}
+/* footer */
+#footer {
+   clear: left;
 }
