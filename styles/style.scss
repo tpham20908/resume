@@ -169,6 +169,9 @@ a:hover {
                color: $black;
                font-weight: 600;
             }
+            .description ul {
+               list-style-type: square;
+            }
          }
       }
    }
