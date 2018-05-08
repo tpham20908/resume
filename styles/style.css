@@ -111,38 +111,49 @@ a:hover {
           font-size: 1.25em;
           text-transform: capitalize;
           margin-right: 5px; }
-  #main #workexperience article, #main #education article {
+  #main #workexperience article, #main #education article,
+  #main #technicallskills article {
     width: 100%;
     margin-top: 60px;
     overflow: hidden; }
-    #main #workexperience article .dugbox, #main #education article .dugbox {
+    #main #workexperience article .dugbox, #main #education article .dugbox,
+    #main #technicallskills article .dugbox {
       float: left;
       width: 32%;
       margin-right: 4%; }
-      #main #workexperience article .dugbox p, #main #education article .dugbox p {
+      #main #workexperience article .dugbox p, #main #education article .dugbox p,
+      #main #technicallskills article .dugbox p {
         font-size: 1.25em;
         font-weight: 700;
         color: #b8b8b8;
         padding-top: 8px; }
-    #main #workexperience article .boxcont, #main #education article .boxcont {
+        #main #technicallskills article .dugbox p {
+          padding-top: 0;
+        }
+    #main #workexperience article .boxcont, #main #education article .boxcont,
+    #main #technicallskills article .boxcont {
       float: left;
       width: 64%; }
-      #main #workexperience article .boxcont h4, #main #education article .boxcont h4 {
+      #main #workexperience article .boxcont h4, #main #education article .boxcont h4,
+      #main #technicallskills article .boxcont h4 {
         font-size: 1.875em;
         font-weight: 400;
         color: #262626; }
-      #main #workexperience article .boxcont h5, #main #education article .boxcont h5 {
+      #main #workexperience article .boxcont h5, #main #education article .boxcont h5,
+      #main #technicallskills article .boxcont h5 {
         font-size: 1.375em;
         margin-top: 15px;
         font-weight: 700;
         color: #40417c; }
-      #main #workexperience article .boxcont .address, #main #education article .boxcont .address {
+      #main #workexperience article .boxcont .address, #main #education article .boxcont .address,
+      #main #technicallskills article .boxcont .address {
         line-height: 2em;
         font-size: 1.286em;
         margin-top: 15px;
         color: #262626;
         font-weight: 600; }
-      #main #workexperience article .boxcont .description ul, #main #education article .boxcont .description ul {
+      #main #workexperience article .boxcont .description ul, #main #education article .boxcont .description ul,
+      #main #technicallskills article .boxcont .description ul {
         list-style-type: square; }
   #main #skills .charthead {
     margin-top: 60px;
@@ -219,6 +230,8 @@ a:hover {
       #main #social p a {
         font-weight: 300;
         font-size: .6em; }
+
+
 
 /* footer */
 #footer {
